@@ -1,0 +1,17 @@
+{
+    "cards": [
+        {
+            "title": "Abomination",
+            "level": 10,
+            "type": "door",
+            "description": "Gets +3 if there is a Munchkin in the fight who's not using Light, Heavy or Energy weapon against it.",
+            "bad_stuff": "While you're running away you're finding new and new troubles. Keep searching the discard pile from top to bottom until you find a Trap that can affect you, it automaticaly triggers on you. If there is no such Trap lose 2 levels.",
+            "treasures": 3,
+            "element": {
+                "x": 300,
+                "y": 225,
+                "path": "./imgs/abomination.png"
+            }
+        }
+    ]
+}
