@@ -17,9 +17,11 @@ def bfs(img, start_x, start_y):
                 visited.add((new_x, new_y))
                 pixel = ans[new_y, new_x,:3]
                 alpha = ans[new_y, new_x, 3]
+
+                
                 if sum(pixel) > 90:
-                    ans[new_y, new_x,:] = [0,0,0,max(0, 255-sum(pixel))]
                     q.append((new_x, new_y))
+                ans[new_y, new_x,:] = [0,0,0,max(0, 255-sum(pixel))]
                 
     return ans
 
